@@ -74,14 +74,12 @@ At this stage if you have soldered a Romiumeter it is a good idea to test them b
 ---
 Before assembling the case, 3D print the models in. It is recommended to use a semi-see-through material when 3D printing the case so that the led's are visible from the outside.
 Once printed and all the components soldered place them in to the case as follows:  
-1. Place the Arduino Nano inside the top half of the case (see [Figure 5](Documentation/hardware_romiumeter.svg)) with the micro usb port facing the back.
-2. Place the Push Button and Slide Switch in their respective frames  
-   Make sure that the two soldered pin of the Slide Switch are towards the front. This is an arbitrary direction so that turning on the sensor is consistenly done by sliding the switch forward.
-3. Place the OLA on the supporting pegs of the top half of the case with the USB C port flush against the opening.
-4. Place the SD card into the SD card slot of the OLA (for the Loggers only).
-5. Place the Battery inside the bottom half of the case.
+1. Place the PCB with soldered Seeeduino XIAO,IMU, and HC05 Bluetooth module inside the bottom half of the case (see [Figure 5](Documentation/hardware_romiumeter.svg)) with the Seeeduino XIAO and IMU touching the bottom of the case.
+2. Place the Slide Switch in their respective frames.
+3. Place the TP4056 charging module inside the top half of the case with the type C port fitting into the hole partly.
+4. Place the battery between the TP4056 module and the Bluetooth module.
 6. Join the two halves of the case.  
-   Make sure the Battery cables are not stuck between the OLA SD card slot and the Battery.
+   Make sure the wires are not stuck in between the top and the bottom half of the case.
 
 <!--
 clearly illustrate how components are to be fitted together, include some screenshots of the title animation and recommended order of steps for assembly

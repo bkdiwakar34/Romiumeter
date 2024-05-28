@@ -53,3 +53,19 @@ Once the Arduino IDE has been set up, open the [Romiumeter.ino](/Firmware/Romium
 Connect the Seeduino XIAO to your computer, select the correct com port and press the upload button. The project may take a while to compile
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+## **Hardware**
+
+
+
+### **Soldering The Components**
+---
+Use the wiring diagram below to solder the components together.  
+The wire lengths are only recommendations. However, the wires need to be long enough to reach the components but short enough to fit in the case. 
+
+
+<img src="Documentation/WMORE_wiring_diagram.png" alt="WMORE_wiring_diagram" width="500"/></br>
+[Figure 4.](Documentation/WMORE_wiring_diagram.png) WMORE Logger and Coordinator wiring Diagram 
+
+At this stage if you have soldered a Coordinator and Logger it is a good idea to test them before putting the components in the case. To do so follow the steps outlined in the [Using the WMOREs](#Using_the_WMOREs) section.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>

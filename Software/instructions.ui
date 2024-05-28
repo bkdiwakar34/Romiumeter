@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1150</width>
+    <height>800</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QWidget" name="widget" native="true">
+   <property name="geometry">
+    <rect>
+     <x>350</x>
+     <y>110</y>
+     <width>401</width>
+     <height>521</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>36</pointsize>
+    </font>
+   </property>
+   <property name="autoFillBackground">
+    <bool>false</bool>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QWidget#widget{
+background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, stop:0 rgba(255, 255, 255, 255), stop:1 rgba(255, 255, 255, 255));}</string>
+   </property>
+   <widget class="QLineEdit" name="comprt">
+    <property name="geometry">
+     <rect>
+      <x>280</x>
+      <y>450</y>
+      <width>81</width>
+      <height>29</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>14</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"/>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>54</x>
+      <y>440</y>
+      <width>211</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>18</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(255, 0, 0);</string>
+    </property>
+    <property name="text">
+     <string>Comport number:</string>
+    </property>
+   </widget>
+   <widget class="QWidget" name="layoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>80</x>
+      <y>110</y>
+      <width>281</width>
+      <height>281</height>
+     </rect>
+    </property>
+    <layout class="QVBoxLayout" name="verticalLayout">
+     <item>
+      <widget class="QPushButton" name="home2">
+       <property name="styleSheet">
+        <string notr="true">QPushButton{
+border-radius:10px;
+font: 18pt &quot;MS Shell Dlg 2&quot;;
+background-color: rgb(230, 230, 230);
+}
+QPushButton:hover{
+background-color: rgb(230, 230, 200);
+}
+QPushButton:pressed{
+background-color: rgb(230, 230, 150);
+}</string>
+       </property>
+       <property name="text">
+        <string>Home</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="shoulder">
+       <property name="styleSheet">
+        <string notr="true">QPushButton{
+border-radius:10px;
+font: 18pt &quot;MS Shell Dlg 2&quot;;
+background-color: rgb(230, 230, 230);
+}
+QPushButton:hover{
+background-color: rgb(230, 230, 200);
+}
+QPushButton:pressed{
+background-color: rgb(230, 230, 150);
+}</string>
+       </property>
+       <property name="text">
+        <string>Shoulder</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="neck">
+       <property name="styleSheet">
+        <string notr="true">QPushButton{
+border-radius:10px;
+font: 18pt &quot;MS Shell Dlg 2&quot;;
+background-color: rgb(230, 230, 230);
+}
+QPushButton:hover{
+background-color: rgb(230, 230, 200);
+}
+QPushButton:pressed{
+background-color: rgb(230, 230, 150);
+}</string>
+       </property>
+       <property name="text">
+        <string>Neck</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

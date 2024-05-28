@@ -69,11 +69,12 @@ The wires need to be long enough to reach the components but short enough to fit
 At this stage if you have soldered a Romiumeter it is a good idea to test them before putting the components in the case. To do so follow the steps outlined in the [Using the Romiumeter](#Using_the_Romiumeter) section.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 ### **Assembling The Case**
 ---
-Before assembling the case, 3D print the models in [WMORE_Bottom.obj](Documentation/CAD_Models/WMORE_Bottom.obj) and [WMORE_Top.obj](/Documentation/CAD_Models/WMORE_Top.obj). It is recommended to use a semi-see-through material when 3D printing the case so that the led's are visible from the outside.
+Before assembling the case, 3D print the models in. It is recommended to use a semi-see-through material when 3D printing the case so that the led's are visible from the outside.
 Once printed and all the components soldered place them in to the case as follows:  
-1. Place the Arduino Nano inside the top half of the case (see [Figure 5](Documentation/Case_Mechanical_Drawing.png)) with the micro usb port facing the back.
+1. Place the Arduino Nano inside the top half of the case (see [Figure 5](Documentation/hardware_romiumeter.svg)) with the micro usb port facing the back.
 2. Place the Push Button and Slide Switch in their respective frames  
    Make sure that the two soldered pin of the Slide Switch are towards the front. This is an arbitrary direction so that turning on the sensor is consistenly done by sliding the switch forward.
 3. Place the OLA on the supporting pegs of the top half of the case with the USB C port flush against the opening.
@@ -90,5 +91,5 @@ clearly illustrate how components are to be fitted together, include some screen
 [Figure 5.](Documentation/hardware_romiumeter.svg) Romiumeter 3d model 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-# **Using the Romiumeter**<a id="Using_the_Romiumeter"></a>
+
 

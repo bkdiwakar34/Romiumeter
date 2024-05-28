@@ -86,8 +86,8 @@ Once printed and all the components soldered place them in to the case as follow
 clearly illustrate how components are to be fitted together, include some screenshots of the title animation and recommended order of steps for assembly
 -->
 
-<img src="Documentation/Case_Mechanical_Drawing.svg" alt="Case_Mechanical_Drawing" width="500" /></br>
-[Figure 5.](Documentation/Case_Mechanical_Drawing.svg) Romiumeter 3d model 
+<img src="Documentation/hardware_romiumeter.svg" alt="Case_Mechanical_Drawing" width="500" /></br>
+[Figure 5.](Documentation/hardware_romiumeter.svg) Romiumeter 3d model 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 # **Using the Romiumeter**<a id="Using_the_Romiumeter"></a>

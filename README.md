@@ -90,4 +90,9 @@ clearly illustrate how components are to be fitted together, include some screen
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+## **Software**
+
+ For convenience, a python program was written to record and save the data in respective folders. The source code is available in the [Software](/Software/) folder. This code can be run from python.
+
+
 

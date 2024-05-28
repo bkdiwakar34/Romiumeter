@@ -60,12 +60,35 @@ Connect the Seeduino XIAO to your computer, select the correct com port and pres
 ### **Soldering The Components**
 ---
 Use the wiring diagram below to solder the components together.  
-The wire lengths are only recommendations. However, the wires need to be long enough to reach the components but short enough to fit in the case. 
+The wires need to be long enough to reach the components but short enough to fit in the case. 
 
 
 <img src="Documentation/Romiumeter_schematic.svg" alt="WMORE_wiring_diagram" width="500"/></br>
-[Figure 4.](Documentation/Romiumeter_schematic.svg) WMORE Logger and Coordinator wiring Diagram 
+[Figure 1.](Documentation/Romiumeter_schematic.svg) Romiumeter wiring Diagram 
 
-At this stage if you have soldered a Coordinator and Logger it is a good idea to test them before putting the components in the case. To do so follow the steps outlined in the [Using the WMOREs](#Using_the_WMOREs) section.
+At this stage if you have soldered a Romiumeter it is a good idea to test them before putting the components in the case. To do so follow the steps outlined in the [Using the Romiumeter](#Using_the_Romiumeter) section.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+### **Assembling The Case**
+---
+Before assembling the case, 3D print the models in [WMORE_Bottom.obj](Documentation/CAD_Models/WMORE_Bottom.obj) and [WMORE_Top.obj](/Documentation/CAD_Models/WMORE_Top.obj). It is recommended to use a semi-see-through material when 3D printing the case so that the led's are visible from the outside.
+Once printed and all the components soldered place them in to the case as follows:  
+1. Place the Arduino Nano inside the top half of the case (see [Figure 5](Documentation/Case_Mechanical_Drawing.png)) with the micro usb port facing the back.
+2. Place the Push Button and Slide Switch in their respective frames  
+   Make sure that the two soldered pin of the Slide Switch are towards the front. This is an arbitrary direction so that turning on the sensor is consistenly done by sliding the switch forward.
+3. Place the OLA on the supporting pegs of the top half of the case with the USB C port flush against the opening.
+4. Place the SD card into the SD card slot of the OLA (for the Loggers only).
+5. Place the Battery inside the bottom half of the case.
+6. Join the two halves of the case.  
+   Make sure the Battery cables are not stuck between the OLA SD card slot and the Battery.
+
+<!--
+clearly illustrate how components are to be fitted together, include some screenshots of the title animation and recommended order of steps for assembly
+-->
+
+<img src="Documentation/Case_Mechanical_Drawing.svg" alt="Case_Mechanical_Drawing" width="500" /></br>
+[Figure 5.](Documentation/Case_Mechanical_Drawing.svg) Romiumeter 3d model 
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+# **Using the Romiumeter**<a id="Using_the_Romiumeter"></a>
+

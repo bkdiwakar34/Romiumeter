@@ -7,7 +7,7 @@
 </p>
 
 
-This project aims at providing an opensource platform for measuring range of motion an inertial measurement unit.
+This project aims at providing an opensource platform for measuring range of motion using an inertial measurement unit.
 
 This document provide information on the components needed to build the Romiumeter, how to program, assemble and use them.
 # **Set Up**
